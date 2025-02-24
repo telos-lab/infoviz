@@ -1,0 +1,22 @@
+[project]
+name = "infoviz"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "dataspider", email = "corinna.coupette@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "cmasher>=1.9.2",
+    "colorcet>=3.1.0",
+    "jupyterlab>=4.3.5",
+    "numpy>=2.2.3",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.2",
+    "seaborn>=0.13.2",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
