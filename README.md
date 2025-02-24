@@ -149,4 +149,4 @@ sns.despine(fig)
 plt.savefig("../figures/pca-iris.pdf", bbox_inches="tight", transparent=True)
 ```
 
-![image](figures/pca-iris.pdf)
+![image](figures/pca-iris.png)
