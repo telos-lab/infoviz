@@ -1,6 +1,17 @@
 # infoviz
 _Information Visualization Starter Kit_
 
+This repository contains companion materials for the `Information Visualization` course at Aalto CS.
+Setup instructions below. Brief summary of folder contents:
+
+```
+.
+├── data: Datasets needed for some visualizations (+ dataset license)
+├── figures: Figures produced by the code in the notebooks folder
+├── notebooks: Jupyter notebooks to produce example figures (many of them used on the lecture slides) 
+└── src: See below
+```
+
 ## Setup
 
 ### Install `uv` ([documentation](https://docs.astral.sh/uv/))
@@ -99,8 +110,10 @@ This can be useful to outsource imports that recur across many of your Jupyter n
 For example, I might add the following to my `helper.py`:
 
 ```python
+import os
 import matplotlib.pyplot as plt
 import seaborn as sns
+import numpy as np
 
 import pandas as pd 
 import seaborn as sns
@@ -108,9 +121,12 @@ import colorcet as cc
 
 from infoviz.utils import set_rcParams
 
+os.makedirs("../figures", exist_ok=True)
+
 fontsize = 20
 rcParams = {'figure.labelsize':fontsize, 'axes.labelsize':fontsize, 'xtick.labelsize':fontsize, 
             'ytick.labelsize':fontsize, 'legend.fontsize':fontsize, 'figure.titlesize':fontsize, 
+            'legend.title_fontsize':fontsize, 
             'axes.titlesize':fontsize, 'legend.frameon':False}
 set_rcParams(**rcParams)
 ```
@@ -119,15 +135,13 @@ set_rcParams(**rcParams)
 
 Assuming you created `utils.py` and `helper.py` as in the workflow tips above, you can now do the following in a Jupyter notebook (say, `notebooks/pca.ipynb`) to perform dimensionality reduction on the `iris` dataset.
 
-Run your helper script, import the necessary `scikit-learn` libraries, and create a `figures` directory:
+Run your helper script and import the necessary `scikit-learn` libraries:
 
 ```python
 %run helper.py
 
 from sklearn import datasets
 from sklearn.decomposition import PCA
-
-os.makedirs("../figures", exist_ok=True)
 ```
 
 Load the `iris` dataset, perform PCA, and pour the results into a dataframe:
