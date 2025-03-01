@@ -1,0 +1,104 @@
+{
+  "chart": {
+    "title": "Estimated nuclear warhead inventories",
+    "subtitle": "Strategic warheads are designed for use away from the battlefield, such as against military bases, arms industries or infrastructure. Deployed are those on ballistic missiles, submarines, or bomber bases. Retired are those queued for dismantlement.",
+    "note": "The exact number of countries' warheads is secret, and the estimates are based on publicly available information, historical records, and occasional leaks. Warheads vary substantially in their power.",
+    "citation": "Federation of American Scientists (2023)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/nuclear-warhead-inventories?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "United Kingdom",
+      "Russia",
+      "United States",
+      "Pakistan",
+      "North Korea",
+      "Israel",
+      "China",
+      "France",
+      "India"
+    ]
+  },
+  "columns": {
+    "Number of deployed strategic nuclear warheads": {
+      "titleShort": "Deployed strategic warheads",
+      "titleLong": "Deployed strategic warheads",
+      "descriptionShort": "Deployed warheads are those on ballistic missiles or bomber bases. Strategic warheads are those for use away from the battlefield, such as against military bases, arms industries, or infrastructure.",
+      "descriptionKey": [
+        "The exact number of countries' warheads is secret, and the estimates are based on publicly available information, historical records, and occasional leaks.",
+        "Warheads vary substantially in their destructing power."
+      ],
+      "shortUnit": "",
+      "unit": "warheads",
+      "timespan": "2023-2023",
+      "type": "Integer",
+      "owidVariableId": 819345,
+      "shortName": "deployed_strategic",
+      "lastUpdated": "2024-01-09",
+      "nextUpdate": "2025-04-01",
+      "citationShort": "Federation of American Scientists (2023) – with minor processing by Our World in Data",
+      "citationLong": "Federation of American Scientists (2023) – with minor processing by Our World in Data. “Deployed strategic warheads” [dataset]. Federation of American Scientists, “Status Of World Nuclear Forces” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/819345.metadata.json"
+    },
+    "Number of deployed nonstrategic nuclear warheads": {
+      "titleShort": "Deployed nonstrategic warheads",
+      "titleLong": "Deployed nonstrategic warheads",
+      "descriptionShort": "Deployed warheads are those on ballistic missiles or bomber bases. Nonstrategic or tactical warheads are those for use on the battlefield.",
+      "descriptionKey": [
+        "The exact number of countries' warheads is secret, and the estimates are based on publicly available information, historical records, and occasional leaks.",
+        "Warheads vary substantially in their destructing power."
+      ],
+      "shortUnit": "",
+      "unit": "warheads",
+      "timespan": "2023-2023",
+      "type": "Integer",
+      "owidVariableId": 819343,
+      "shortName": "deployed_nonstrategic",
+      "lastUpdated": "2024-01-09",
+      "nextUpdate": "2025-04-01",
+      "citationShort": "Federation of American Scientists (2023) – with minor processing by Our World in Data",
+      "citationLong": "Federation of American Scientists (2023) – with minor processing by Our World in Data. “Deployed nonstrategic warheads” [dataset]. Federation of American Scientists, “Status Of World Nuclear Forces” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/819343.metadata.json"
+    },
+    "Number of nondeployed nuclear warheads in reserve": {
+      "titleShort": "Nondeployed warheads",
+      "titleLong": "Nondeployed warheads",
+      "descriptionShort": "Nondeployed or reserve warheads are those not on ballistic missiles or bomber bases.",
+      "descriptionKey": [
+        "The exact number of countries' warheads is secret, and the estimates are based on publicly available information, historical records, and occasional leaks.",
+        "Warheads vary substantially in their destructing power."
+      ],
+      "shortUnit": "",
+      "unit": "warheads",
+      "timespan": "2023-2023",
+      "type": "Integer",
+      "owidVariableId": 819348,
+      "shortName": "reserve_nondeployed",
+      "lastUpdated": "2024-01-09",
+      "nextUpdate": "2025-04-01",
+      "citationShort": "Federation of American Scientists (2023) – with minor processing by Our World in Data",
+      "citationLong": "Federation of American Scientists (2023) – with minor processing by Our World in Data. “Nondeployed warheads” [dataset]. Federation of American Scientists, “Status Of World Nuclear Forces” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/819348.metadata.json"
+    },
+    "Number of retired nuclear warheads": {
+      "titleShort": "Retired warheads",
+      "titleLong": "Retired warheads",
+      "descriptionShort": "Estimated number of retired nuclear warheads queued for dismantlement.",
+      "descriptionKey": [
+        "The exact number of countries' warheads is secret, and the estimates are based on publicly available information, historical records, and occasional leaks.",
+        "Warheads vary substantially in their destructing power."
+      ],
+      "shortUnit": "",
+      "unit": "warheads",
+      "timespan": "2023-2023",
+      "type": "Integer",
+      "owidVariableId": 819347,
+      "shortName": "retired",
+      "lastUpdated": "2024-01-09",
+      "nextUpdate": "2025-04-01",
+      "citationShort": "Federation of American Scientists (2023) – with minor processing by Our World in Data",
+      "citationLong": "Federation of American Scientists (2023) – with minor processing by Our World in Data. “Retired warheads” [dataset]. Federation of American Scientists, “Status Of World Nuclear Forces” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/819347.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-03-01",
+  "activeFilters": {}
+}

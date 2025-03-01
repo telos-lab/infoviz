@@ -6,6 +6,7 @@ import numpy as np
 import pandas as pd 
 import seaborn as sns
 import colorcet as cc
+import cmasher as cmr
 
 from infoviz.utils import set_rcParams
 
