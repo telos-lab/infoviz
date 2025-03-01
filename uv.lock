@@ -311,6 +311,18 @@ wheels = [
 ]
 
 [[package]]
+name = "country-converter"
+version = "1.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pandas" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/82/38/2ead1f573464121c6ecf7589a30a3245e6f38845e16d9209310dcb5802b9/country_converter-1.3.tar.gz", hash = "sha256:f6a1a14d1f98112ca90a5198f645f4e60bb73840e98f3f733893ff5b617c2f38", size = 61524 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/1b/9e/70823cb203d780279e1f4fe6dbd72d3ecf22ed0ab6f2545bcd3989944e75/country_converter-1.3-py3-none-any.whl", hash = "sha256:006958c83adeada455d2f178921fdd051def736259ff250fada912eaf3ca8cf1", size = 47168 },
+]
+
+[[package]]
 name = "cycler"
 version = "0.12.1"
 source = { registry = "https://pypi.org/simple" }
@@ -459,6 +471,7 @@ source = { editable = "." }
 dependencies = [
     { name = "cmasher" },
     { name = "colorcet" },
+    { name = "country-converter" },
     { name = "jupyterlab" },
     { name = "numpy" },
     { name = "pandas" },
@@ -471,6 +484,7 @@ dependencies = [
 requires-dist = [
     { name = "cmasher", specifier = ">=1.9.2" },
     { name = "colorcet", specifier = ">=3.1.0" },
+    { name = "country-converter", specifier = ">=1.3" },
     { name = "jupyterlab", specifier = ">=4.3.5" },
     { name = "numpy", specifier = ">=2.2.3" },
     { name = "pandas", specifier = ">=2.2.3" },
