@@ -74,14 +74,14 @@ I recommend creating a separate folder named `notebooks` for all your Jupyter no
 
 For example, create a `utils.py` as a sibling of `__init__.py`, and put any functions you may want to reuse for different plots there.
 
-I often use the following (if you have LaTeX installed locally, you can comment in the line currently starting with `#`, which will allow you to plot labels using LaTeX):
+I often use the following (if you have LaTeX installed locally, you can comment in the lines currently starting with `#`, which will allow you to plot labels using LaTeX):
 
 ```python
 import matplotlib.pyplot as plt
 
 def set_rcParams(**kwargs):
     plt.rcParams['pdf.fonttype'] = 42
-    plt.rcParams['text.usetex'] = True
+    # plt.rcParams['text.usetex'] = True
     plt.rcParams['font.family'] = 'serif'
     # plt.rcParams['text.latex.preamble'] = r"\usepackage{amssymb}\usepackage{amsmath}\usepackage{times}"
     for k, v in kwargs.items():
